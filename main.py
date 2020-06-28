@@ -1,5 +1,5 @@
 import telebot
-
+ 
 from telebot import types
 
 import os
@@ -7,7 +7,6 @@ from flask import Flask, request
 
 # bot = telebot.TeleBot('1216448489:AAGa0aixNFa6R9AvpuYF0wkTTlTOauHKYzg') # Sergei's token
 bot = telebot.TeleBot('1281817942:AAE24DX-h9ZunkdS4ZGJvSfxUY5rdqzwdgI') # Oleh's token
-# bot = telebot.TeleBot('1216448489:AAGa0aixNFa6R9AvpuYF0wkTTlTOauHKYzg')
 
 server = Flask(__name__)
 
